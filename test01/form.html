@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" content="text/css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form2">
+            <form action="#" id="form2" class="form__body">
+                <h1 class="form__title">Вiдправка даних на пошту</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Name*</label>
+                    <input id="formName" type="text" name="name" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">email*</label>
+                    <input id="formEmail" type="text" name="email" class="form__input">
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Лiвша чи правша</div>
+                    <div class="options">
+                        <div class="options__item">
+                            <input type="radio" name="hand" class="">
+                            <input type="radio" name="hand" class="">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form__label">Повiдомлення:</label>
+                    <textarea name="Message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label"> Вiк:</div>
+                    <select name="age" id="" class="select">
+                        <option value="від 20" selected> Молодий</option>
+                        <option value="від 30"> Зрiлий</option>
+                        <option value="від 40"> Старий</option>
+                    </select>
+                    <div class="form__item">
+                        <div class="form__label label_img">Додати фото</div>
+                        <div class="file__item">
+                            <input accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+                        <label for="formAgreement class=" checkbox__label">Приймаю правила</label>
+                    </div>
+                </div>
+                <button type="submit" class="form__button">Відправити</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
